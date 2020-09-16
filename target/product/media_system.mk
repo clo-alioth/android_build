@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     requestsync \
     StatementService \
 
+# Seedvault backup provider
+PRODUCT_PACKAGES += \
+    Seedvault
+
 PRODUCT_HOST_PACKAGES += \
     fsck.f2fs \
 
