@@ -20,6 +20,9 @@
 # does, use base_product.mk).
 $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
+# Inherit custom product
+$(call inherit-product, $(SRC_TARGET_DIR)/product/custom_product.mk)
+
 # /product packages
 PRODUCT_PACKAGES += \
     Calendar \
