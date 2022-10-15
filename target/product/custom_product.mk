@@ -15,5 +15,6 @@
 #
 
 PRODUCT_PACKAGES += \
+    curl \
     Stk \
     Seedvault
